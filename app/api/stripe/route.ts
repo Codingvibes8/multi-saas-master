@@ -42,7 +42,7 @@ export async function GET() {
           price_data: {
             currency: "USD",
             product_data: {
-              name: "AI Studio Pro",
+              name: "OmniGen Pro",
               description: "Unlimited AI Generations",
             },
             unit_amount: 2000,

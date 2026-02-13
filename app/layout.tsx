@@ -13,7 +13,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AI Studio | All-in-one AI Platform",
+  title: "OmniGen | All-in-one AI Platform",
   description: "AI SaaS platform with conversation, code, image, music, and video generation",
 }
 

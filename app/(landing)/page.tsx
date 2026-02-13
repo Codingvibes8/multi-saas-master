@@ -15,7 +15,8 @@ export default function LandingPage() {
             <Sparkles className="h-8 w-8 text-indigo-500 animate-pulse" />
             <div className="absolute inset-0 h-8 w-8 bg-indigo-500/20 blur-xl" />
           </div>
-          <span className="text-gradient font-bold text-2xl">AI Studio</span>
+          <span className="text-gradient font-bold text-2xl">OmniGen</span>
+          <span className="text-xs text-muted-foreground ml-1">All-in-One AI Platform</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center">
           <Link
@@ -285,7 +286,7 @@ export default function LandingPage() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400"> 2025 AI Studio. All rights reserved.</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400"> 2025 OmniGen. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-xs hover:underline underline-offset-4">
             Terms of Service

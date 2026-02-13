@@ -69,7 +69,10 @@ export const Sidebar = ({ apiLimitCount = 0, isPro = false }: SidebarProps) => {
           <div className="relative w-8 h-8 mr-4">
             <Image fill alt="Logo" src="/placeholder.svg?height=32&width=32" />
           </div>
-          <h1 className={cn("text-2xl font-bold", montserrat.className)}>AI Studio</h1>
+          <div className="flex flex-col">
+            <h1 className={cn("text-2xl font-bold", montserrat.className)}>OmniGen</h1>
+            <span className="text-xs text-zinc-400 font-normal">All-in-One AI Platform</span>
+          </div>
         </Link>
         <div className="space-y-1">
           {routes.map((route) => (
