@@ -33,10 +33,10 @@ export function ParticleField() {
     window.addEventListener("resize", resizeCanvas);
 
     const colors = [
-      "rgba(251, 191, 36, 0.8)", // amber-400
-      "rgba(245, 158, 11, 0.8)", // amber-500
-      "rgba(217, 119, 6, 0.6)",  // amber-600
-      "rgba(254, 243, 199, 0.9)", // amber-100
+      "rgba(99, 102, 241, 0.8)",  // indigo-500
+      "rgba(129, 140, 248, 0.8)", // indigo-400
+      "rgba(139, 92, 246, 0.6)",  // violet-500
+      "rgba(168, 85, 247, 0.9)",  // purple-500
       "rgba(255, 255, 255, 0.7)", // white
     ];
 
@@ -62,7 +62,7 @@ export function ParticleField() {
 
       // Add glow effect
       ctx.shadowBlur = 15;
-      ctx.shadowColor = "rgba(251, 191, 36, 0.5)";
+      ctx.shadowColor = "rgba(99, 102, 241, 0.5)";
 
       particlesRef.current.forEach((particle, index) => {
         // Update position - flow from right to left
@@ -104,7 +104,7 @@ export function ParticleField() {
 
             if (distance < 100) {
               ctx.beginPath();
-              ctx.strokeStyle = `rgba(251, 191, 36, ${0.15 * (1 - distance / 100)})`;
+              ctx.strokeStyle = `rgba(99, 102, 241, ${0.15 * (1 - distance / 100)})`;
               ctx.lineWidth = 0.5;
               ctx.moveTo(particle.x, particle.y);
               ctx.lineTo(otherParticle.x, otherParticle.y);

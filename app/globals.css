@@ -198,14 +198,14 @@
 
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(251, 191, 36, 0.3),
-                0 0 40px rgba(251, 191, 36, 0.2),
-                0 0 60px rgba(251, 191, 36, 0.1);
+    box-shadow: 0 0 20px rgba(99, 102, 241, 0.3),
+                0 0 40px rgba(139, 92, 246, 0.2),
+                0 0 60px rgba(139, 92, 246, 0.1);
   }
   50% {
-    box-shadow: 0 0 30px rgba(251, 191, 36, 0.5),
-                0 0 60px rgba(251, 191, 36, 0.3),
-                0 0 90px rgba(251, 191, 36, 0.2);
+    box-shadow: 0 0 30px rgba(99, 102, 241, 0.5),
+                0 0 60px rgba(139, 92, 246, 0.3),
+                0 0 90px rgba(139, 92, 246, 0.2);
   }
 }
 
@@ -226,7 +226,7 @@
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(251, 191, 36, 0.3),
+    rgba(99, 102, 241, 0.3),
     transparent
   );
   background-size: 200% 100%;
@@ -266,7 +266,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #f59e0b, #fbbf24, #f97316, #fbbf24);
+  background: linear-gradient(135deg, #3b82f6, #6366f1, #a855f7, #6366f1);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -275,6 +275,6 @@
 }
 
 .hero-gradient {
-  background: radial-gradient(ellipse at top right, rgba(251, 191, 36, 0.15) 0%, transparent 50%),
-              radial-gradient(ellipse at bottom left, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
+  background: radial-gradient(ellipse at top right, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+              radial-gradient(ellipse at bottom left, rgba(139, 92, 246, 0.1) 0%, transparent 50%);
 }

@@ -70,7 +70,7 @@ export function TypewriterText({ words, className }: TypewriterTextProps) {
   return (
     <span className={cn("inline-block", className)}>
       {currentText}
-      <span className="animate-pulse text-amber-500">|</span>
+      <span className="animate-pulse text-indigo-500">|</span>
     </span>
   );
 }
@@ -119,7 +119,7 @@ export function GlowingOrb({ className, size = "md", color = "amber" }: GlowingO
       className={cn(
         "absolute rounded-full blur-3xl animate-pulse-slow",
         sizeClasses[size],
-        color === "amber" && "bg-amber-500/20",
+        color === "amber" && "bg-indigo-500/20",
         color === "purple" && "bg-purple-500/20",
         color === "blue" && "bg-blue-500/20",
         className

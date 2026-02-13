@@ -34,8 +34,8 @@ const tools = [
   {
     label: "Video Generation",
     icon: "VideoIcon",
-    color: "text-orange-500",
-    bgColor: "bg-orange-500/10",
+    color: "text-purple-500",
+    bgColor: "bg-purple-500/10",
   },
   {
     label: "Music Generation",
